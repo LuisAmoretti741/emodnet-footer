@@ -1,0 +1,46 @@
+*{
+    /* border: solid red 1px; */
+    background-color: #004494;
+    color: white;
+}
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+.parent{
+    display: flex;
+    height: 700px;
+    background-color: #004494;
+    justify-content: center;
+}
+.first-child{
+    display: flex;
+    width:  900px;
+    flex-direction: column;
+    gap: 50px;
+    flex-grow: center;
+}
+.second-child{
+    display: flex;
+    width: 500px;
+    flex-grow: 1;
+}
+.second-child-fat{
+    display: flex;
+    width: 900px;
+    height: 300px;
+    flex-grow: 1;
+    color: white;
+    padding: 0px;
+}
+/* .second-child-2{
+    flex-grow: 2;
+} */
+.divider{
+    height: 3px;
+    background-color: white;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+}
