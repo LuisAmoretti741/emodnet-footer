@@ -1,43 +1,63 @@
 *{
+    font-size: 13px;
     /* border: solid red 1px; */
     background-color: #004494;
     color: white;
+    /* border: 1px solid; */
 }
 html, body{
     margin: 0px;
     padding: 0px;
 }
+/*============================================*/
 .parent{
     display: flex;
-    height: 700px;
+    padding: 20px;
+    height: 600px;
     background-color: #004494;
     justify-content: center;
 }
 .first-child{
     display: flex;
     width:  900px;
+    height: 600px;
     flex-direction: column;
-    gap: 50px;
+    gap: 30px;
     flex-grow: center;
 }
 .second-child{
     display: flex;
+    padding-left: 30px;
     width: 500px;
-    flex-grow: 1;
+    flex-grow: 0;
+    height: 50px;
+}
+.second-item{
+    height: 250px;
+    padding: 20px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.second-item02{
+    justify-content: center;
+    padding: 20px;
+    width: 500px;
+    height: 0;
+    display: flex;
+    flex-direction: column;
 }
 .second-child-fat{
+    margin: 10px;
+    padding-left: 20px;
+    justify-items: center;
+    height: 200px;
     display: flex;
     width: 900px;
-    height: 300px;
-    flex-grow: 1;
     color: white;
-    padding: 0px;
 }
-/* .second-child-2{
-    flex-grow: 2;
-} */
 .divider{
-    height: 3px;
+    height: 1px;
     background-color: white;
 }
 .links{
